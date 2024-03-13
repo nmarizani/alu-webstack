@@ -41,7 +41,7 @@ frontend nicoll-frontend
         default_backend nicoll-backend
 
 frontend nicoll-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/nicoll.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.nicoll.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend nicoll-backend
 
