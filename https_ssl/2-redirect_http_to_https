@@ -48,4 +48,4 @@ frontend nicoll-frontend-https
 backend nicoll-backend
         balance roundrobin
         server 5995-web-01 54.160.143.50:80 check
-        server 5995-web-02 107.22.131.47:80 check
+        server 5995-web-02 3.83.234.214:80 check
